@@ -1,0 +1,9 @@
+@Gustavo Martínez Sánchez
+
+def longitudCadena(x):
+  return len(x)
+def nombrePropio(x):
+  return x.capitalize()
+x=input('Indique una palabra') or 'maDRid'
+print(nombrePropio(x),'tiene',longitudCadena(x),'caracteres.') 
+
